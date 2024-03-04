@@ -1,26 +1,28 @@
 {
-    "stores": [
+  "stores":
+  [
+  {
+    "id": 1,
+    "name": "Meats and Seafood",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ae/FoodMeat.jpg/330px-FoodMeat.jpg",
+    "items":[
       {
-        "id": 1,
-        "name": "Meats and Seafood",
-        "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-        "items":[
-          {
-          "item1":"meat",
-          "item2":"seafood"
-          }
-        ]
-      },
+      "item1":"meat",
+      "item2":"seafood"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "99 Cents Store",
+    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e7/DGRegisterStore.jpg/800px-DGRegisterStore.jpg",
+    "items":[
       {
-        "id": 2,
-        "name": "99 Cents Store",
-        "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-        "items":[
-          {
-            "item1":"paper",
-            "item2":"pen"
-          }
-        ]
+        "item1":"paper",
+        "item2":"pen"
       }
     ]
   }
+
+]
+}

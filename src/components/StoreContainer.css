@@ -1,0 +1,14 @@
+.StoreContainer > a{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 200px;
+    padding: 100px;
+    margin: 0 6px 6px;
+    background: rgba(173, 216, 230, 0.601);
+    text-decoration: none;
+    text-align: center;
+    font-size: min(10vw, 15px) ;
+    color: black;
+}
+  
+

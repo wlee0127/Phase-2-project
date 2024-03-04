@@ -1,6 +1,6 @@
 
 import React from "react";
-import MyMap from "./MyMap";
+import MyMap from "../components/MyMap";
 import NavBar from "../components/NavBar";
 
 
