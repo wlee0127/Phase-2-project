@@ -27,7 +27,7 @@ function MyMap() {
   const position = { lat: 40.7120, lng: -73.9968 }; 
   const position02 = {lat: 40.7125 , lng: -73.9969 };
   const position03 = {lat: 40.7129 , lng: -73.9972 };
-  const APIkey = "AIzaSyCVsSqyYeNQ30VPHNDMfFeenr9tpkkoNjc"; 
+  const APIkey = ""; 
 
   return (
     <APIProvider apiKey={APIkey}>
