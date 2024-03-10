@@ -1,19 +1,35 @@
-import React from "react";
+import React, {useState} from "react";
+import "./StoreContainer.css";
+import MyForm from "./MyForm";
 
 
-function StoreContainer({stores}) {
+function StoreContainer({stores, handleform, formData}) {
 
-  console.log(stores);
+  const iventorylist = stores.map((store)=>{
+    store.items.map((item)=>{
+      <span>{item}</span>
+    })
+  })
 
   const storelist = stores.map((store)=>{
   return ( 
-      <div>
+      <div className="store-container">
         <main>
           <ul>
-          <li>{store.name}</li>
+          <h3>{store.name}</h3>
           <img src={store.image}/>
+          <ul>inventory:
+            {store.items.map((item) => {
+              return(
+              <li>{item}</li>
+              )
+            })}
+          </ul>
           </ul>
         </main>
+      <div>
+        <MyForm id={store.id} handleform={handleform} formData={formData}/>
+      </div>
       </div>
   )}
   );

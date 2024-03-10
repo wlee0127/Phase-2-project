@@ -1,28 +1,28 @@
 {
-  "stores":
-  [
-  {
-    "id": 1,
-    "name": "Meats and Seafood",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ae/FoodMeat.jpg/330px-FoodMeat.jpg",
-    "items":[
-      {
-      "item1":"meat",
-      "item2":"seafood"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "name": "99 Cents Store",
-    "image": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e7/DGRegisterStore.jpg/800px-DGRegisterStore.jpg",
-    "items":[
-      {
-        "item1":"paper",
-        "item2":"pen"
-      }
-    ]
-  }
-
-]
+  "stores": [
+    {
+      "id": 1,
+      "name": "Butcher",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e7/DGRegisterStore.jpg/800px-DGRegisterStore.jpg",
+      "items": [
+        "meat",
+        "fish",
+        "t",
+        "t",
+        "t",
+        "t"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "99 Cents Store",
+      "image": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e7/DGRegisterStore.jpg/800px-DGRegisterStore.jpg",
+      "items": [
+        "paper",
+        "pen",
+        "t",
+        "t"
+      ]
+    }
+  ]
 }

@@ -1,14 +1,7 @@
-.StoreContainer > a{
-    display: inline-block;
-    box-sizing: border-box;
-    width: 200px;
-    padding: 100px;
-    margin: 0 6px 6px;
-    background: rgba(173, 216, 230, 0.601);
-    text-decoration: none;
-    text-align: center;
-    font-size: min(10vw, 15px) ;
-    color: black;
-}
-  
+.store-container {
+    border: 1px solid #ccc; 
+    background-color: rgba(245, 246, 246, 0.558);
+    padding: 10px;
+    margin-bottom: 20px;
+  }
 
